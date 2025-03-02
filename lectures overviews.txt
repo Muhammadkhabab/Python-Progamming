@@ -1,0 +1,5 @@
+2-3-2025
+lectures coverd
+3rd lecture about the system installation and also the IDE setting
+Anocanda Sofwatere installation and also mincaoda softwatre is complete package of the python 
+vs code and also the extension of the python.
