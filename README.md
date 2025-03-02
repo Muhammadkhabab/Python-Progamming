@@ -1,4 +1,4 @@
-#Python Programming Course Repository
+# Python Programming Course Repository
 
 Welcome to the **Python Course** repository! This repository is designed for beginners who want to learn Python from scratch. It contains structured lessons, example scripts, exercises, and projects to help you build a strong foundation in Python programming.
 
