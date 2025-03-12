@@ -1,0 +1,51 @@
+# Step 1: Check if Conda is installed
+conda --version  
+
+# Step 2: List all Conda environments
+conda env list  
+conda info -e  # Alternative way to list environments  
+
+# Step 3: Create a new environment with Python 3.11
+conda create -n my_env python=3.11  
+
+# Step 4: Activate the new environment
+conda activate my_env  
+
+# Step 5: Install packages using Conda
+conda install numpy pandas matplotlib  
+
+# Step 6: If a package is not available in Conda, install it with pip
+pip install flask  
+
+# Step 7: List all installed packages
+conda list      # Shows all Conda + pip packages  
+pip list        # Shows only pip-installed packages  
+
+# Step 8: Check for outdated packages
+conda search --outdated  
+pip list --outdated  
+
+# Step 9: Upgrade a package
+conda update numpy  
+pip install --upgrade flask  
+
+# Step 10: Uninstall a package
+conda remove pandas  
+pip uninstall flask  
+
+# Step 11: Save environment for sharing
+conda env export > environment.yml  
+pip freeze > requirements.txt  
+
+# Step 12: Create an environment from a saved file
+conda env create -f environment.yml  
+pip install -r requirements.txt  
+
+# Step 13: Clone an existing environment
+conda create --name new_env --clone my_env  
+
+# Step 14: Deactivate the current environment
+conda deactivate  
+
+# Step 15: Delete an environment permanently
+conda env remove --name my_env  
